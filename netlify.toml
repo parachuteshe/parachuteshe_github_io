@@ -7,3 +7,8 @@
 
 [build.environment]
   NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/wecom/callback"
+  to = "/.netlify/functions/wecom-verify"
+  status = 200
